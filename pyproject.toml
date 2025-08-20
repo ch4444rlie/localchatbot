@@ -1,0 +1,20 @@
+[project]
+name = "agent-fordocs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "langchain-ollama>=0.3.6",
+    "langchain>=0.3.27",
+    "notebook>=7.4.5",
+    "ollama>=0.5.3",
+    "pandas>=2.3.1",
+    "pydantic>=2.11.7",
+    "pymupdf>=1.26.3",
+    "streamlit>=1.48.1",
+    "langchain-chroma>=0.2.5",
+    "langchain-core>=0.3.74",
+    "langchain-text-splitters>=0.3.9",
+]
